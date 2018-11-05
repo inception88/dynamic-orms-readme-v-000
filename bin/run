@@ -8,7 +8,6 @@ require_relative "../config/environment.rb"
 song = Song.new(name: "Hello", album: "25")
 puts "song name: " + song.name
 puts "song album: " + song.album
-puts "song ben: " + song.ben
 song.save
 
 song = Song.new(name: "Ben The Beast", album: "Beastmode")
