@@ -12,4 +12,3 @@ puts "song ben: " + song.ben
 song.save
 
 result = DB[:conn].execute("SELECT * FROM songs")
-puts "#{result}"
