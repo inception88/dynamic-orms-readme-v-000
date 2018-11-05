@@ -14,7 +14,6 @@ song.save
 song = Song.new(name: "Ben The Beast", album: "Beastmode")
 puts "song name: " + song.name
 puts "song album: " + song.album
-puts "song ben: " + song.ben
 song.save
 
 result = DB[:conn].execute("SELECT * FROM songs")
